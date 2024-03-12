@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image- links</title>
+    <style>
+        section {
+            padding: 15px; 
+            text-align: center;
+            margin-bottom: 10px;
+            border: 1px solid grey;
+        }
+        img {
+            width: 50%;
+            height: auto;
+        }
+        .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+        grid-auto-rows: auto; /* Automatically adjust row height */
+        grid-gap: 10px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- HOME -->
+<section >
+    <h1>Welcome to our website!</h1>
+    <p>Explore our collection of images related to various topics.</p>
+    <a href="https://www.pexels.com/photo/high-angle-view-of-a-man-256381/" target="_blank" ><img src="images/technology.jpg" title="Click to visit technology image page" alt="Technology Image">
+    <br>
+    <span>Technology Image</span> 
+    </a>
+</section>
+
+<!-- GALLERY -->
+<section >
+    <h2>Nature Gallery.</h2>
+    <p>Explore a grid of linked images related to nature.</p>
+    <ul class="gallery" style="list-style-type: none">
+        <li><a href="https://www.pexels.com/photo/photo-of-stream-during-daytime-3225517/" target="_blank" ><img src="images/nature1.jpg" title="Click to visit Nature Image One page" alt="Nature Image 1">
+            <br>
+            <span>(1) Nature Image One</span> 
+        </a></li>
+
+        <li><a href="https://www.pexels.com/photo/red-trees-1547813/" target="_blank" ><img src="images/nature2.jpg" title="Click to visit Nature Image Two page" alt="Nature Image 2">
+            <br>
+            <span>(2) Nature Image Two</span> 
+        </a></li>
+
+        <li><a href="https://www.pexels.com/photo/scenic-photo-of-mountain-during-daytime-3241955/" target="_blank" ><img src="images/nature3.jpg" title="Click to visit Nature Image Three page" alt="Nature Image 3">
+            <br>
+            <span>(3) Nature Image Three</span> 
+        </a></li>
+
+        <li><a href="https://www.pexels.com/photo/scenic-photo-of-mountains-during-daytime-3241958/" target="_blank" ><img src="images/nature4.jpg" title="Click to visit Nature Image Four page" alt="Nature Image 4">
+            <br>
+            <span>(4) Nature Image Four</span> 
+        </a></li>
+
+        <li><a href="https://www.pexels.com/photo/scenic-photo-of-waterfalls-during-daytime-3021252/" target="_blank" ><img src="images/nature5.jpg" title="Click to visit Nature Image Five page" alt="Nature Image 5">
+            <br>
+            <span>(5) Nature Image Five</span> 
+        </a></li>
+
+        <li><a href="https://www.pexels.com/photo/person-walking-between-green-forest-trees-15286/" target="_blank" ><img src="images/nature6.jpg" title="Click to visit Nature Image Six page" alt="Nature Image 6">
+            <br>
+            <span>(6) Nature Image Six</span> 
+        </a></li>
+    </ul>
+</section>
+
+<!-- MENU -->
+<section >
+    <h2>Menu.</h2>
+    <p>List of food items, and each item is linked to an image related to that food.</p>
+    <ul style="list-style-type: none;">
+        <li><a href="https://www.pexels.com/photo/vegetable-salad-on-white-ceramic-plate-1211887/" target="_blank" ><img src="images/salad.jpg" title="Click to visit salad page" alt="Salad">
+            <br>
+            <span>(1) Salad</span> 
+        </a></li>
+<br>
+        <li><a href="https://www.pexels.com/photo/ham-burger-with-vegetables-1639557/" target="_blank" ><img src="images/burger.jpg" title="Click to visit burger page" alt="burger">
+            <br>
+            <span>(2) Burger</span> 
+        </a></li>
+<br>
+        <li><a href="https://www.pexels.com/photo/pizza-on-brown-wooden-board-825661/" target="_blank" ><img src="images/pizza.jpg" title="Click to visit pizza page" alt="pizza">
+            <br>
+            <span>(3) Pizza</span> 
+        </a></li>
+<br>
+        <li><a href="https://www.pexels.com/photo/pasta-with-green-leaf-and-chili-pepper-1460872/" target="_blank" ><img src="images/pasta.jpg" title="Click to visit pasta page" alt="pasta">
+            <br>
+            <span>(4) Pasta</span> 
+        </a></li>
+<br>
+        <li><a href="https://www.pexels.com/photo/person-eating-sushi-858501/" target="_blank" ><img src="images/sushi.jpg" title="Click to visit sushi page" alt="sushi">
+            <br>
+            <span>(5) Sushi</span> 
+        </a></li>
+    </ul>     
+</section>
+
+</body>
+</html>
